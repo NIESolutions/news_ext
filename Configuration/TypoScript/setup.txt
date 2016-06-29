@@ -1,0 +1,28 @@
+plugin.tx_news {
+    persistence {
+        classes {
+            GeorgRinger\News\Domain\Model\News {
+                subclasses {
+                    # three different classes are used for each news type
+                    # 0 == default news
+                    3 = Vendor\NewsExtend\Domain\Model\WebReferenz
+                    4 = Vendor\NewsExtend\Domain\Model\MediaReferenz
+
+                }
+            }
+            Vendor\NewsExtend\Domain\Model\WebReferenz {
+                mapping {
+                    recordType = 3
+                    tableName = tx_news_domain_model_news
+                }
+            }
+            Vendor\NewsExtend\Domain\Model\MediaReferenz {
+                mapping {
+                    recordType = 4
+                    tableName = tx_news_domain_model_news
+                }
+            }
+        }
+    }
+}
+

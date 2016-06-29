@@ -1,0 +1,4 @@
+TCEFORM.tx_news_domain_model_news.type.addItems {
+	3 = LLL:EXT:news_extend/Resources/Private/Language/locallang_db.xlf:tx_news_domain_model_news.type.webReferenz
+	4 = LLL:EXT:news_extend/Resources/Private/Language/locallang_db.xlf:tx_news_domain_model_news.type.mediaReferenz
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+   <file source-language="en" datatype="plaintext" original="messages" date="2015-07-31T15:13:12Z" product-name="news_extend">
+      <header/>
+      <body>
+         <trans-unit id="tx_newsextend_domain_model_news.subtitle">
+            <source>Untertitel</source>
+         </trans-unit>
+         <trans-unit id="tx_newsextend_domain_model_news.link">
+            <source>Link</source>
+         </trans-unit>
+         <trans-unit id="tx_newsextend_domain_model_news.picture">
+            <source>Bild</source>
+         </trans-unit>
+         <trans-unit id="tx_newsextend_domain_model_news.isWebsite">
+            <source>Ist Website</source>
+         </trans-unit>
+          <trans-unit id="tx_newsextend_domain_model_news.isMobile">
+            <source>Mobile</source>
+         </trans-unit>
+         <trans-unit id="tx_newsextend_domain_model_news.isTablet">
+            <source>Tablet</source>
+         </trans-unit>
+         <trans-unit id="tx_newsextend_domain_model_news.isDesktop">
+            <source>Desktop</source>
+         </trans-unit>
+         <trans-unit id="tx_news_domain_model_news.type.webReferenz" xml:space="preserve">
+			   <source>Web Referenz</source>
+		   </trans-unit>
+         <trans-unit id="tx_news_domain_model_news.type.mediaReferenz" xml:space="preserve">
+            <source>Media Referenz</source>
+         </trans-unit>
+
+      </body>
+   </file>
+</xliff>
